@@ -98,17 +98,6 @@ document.getElementById('message-form').addEventListener('submit',(event)=>{
 
 
 
-// socket.on('countupdated',(count)=>{
-//     console.log('count has been updated'+count)
-// })
-
-// document.getElementById('increment_1').addEventListener('click',()=>{
-//     // console.log('clicked')
-//     socket.emit('increment')
-// })
-
-
-
 
 document.getElementById('geo-location').addEventListener('click',()=>{
     // alert('i am working ')

@@ -20,21 +20,6 @@ const public_dir = path.join(__dirname,'../public')
 
 app.use(express.static(public_dir))
 
-// app.get('/index',(request,response)=>{
-//     response.render('/public/chat_form.html')
-// })
-//////////////// increment value on button click //////////
-
-// var count=0
-// io.on('connection', (socket) => {
-//     console.log('New WebSocket connection')
-//     socket.emit('countupdated',count)
-//     socket.on('increment',()=>{
-//         count++
-//         io.emit('countupdated',count)
-//     })
-// })
-
 
 /////////////////////////////////////////////////////////
 
